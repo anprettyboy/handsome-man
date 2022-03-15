@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>JS框架能解决什么问题以及如果没有框架我们该怎么办 | 画风一剑</title>
+    <meta name="generator" content="VuePress 1.9.5">
+    
+    <meta name="description" content="TypeScript4 最新官方文档翻译">
+    
+    <link rel="preload" href="/handsome-man/assets/css/0.styles.7f197cba.css" as="style"><link rel="preload" href="/handsome-man/assets/js/app.b9fb3275.js" as="script"><link rel="preload" href="/handsome-man/assets/js/3.b104ceb1.js" as="script"><link rel="preload" href="/handsome-man/assets/js/1.809d56d9.js" as="script"><link rel="preload" href="/handsome-man/assets/js/22.0554b1b9.js" as="script"><link rel="prefetch" href="/handsome-man/assets/js/10.6a5b3f4b.js"><link rel="prefetch" href="/handsome-man/assets/js/11.af144312.js"><link rel="prefetch" href="/handsome-man/assets/js/12.e892fb6d.js"><link rel="prefetch" href="/handsome-man/assets/js/13.b0ca7e63.js"><link rel="prefetch" href="/handsome-man/assets/js/14.5aee67aa.js"><link rel="prefetch" href="/handsome-man/assets/js/15.1ff5f527.js"><link rel="prefetch" href="/handsome-man/assets/js/16.ecbfa0a6.js"><link rel="prefetch" href="/handsome-man/assets/js/17.191d776d.js"><link rel="prefetch" href="/handsome-man/assets/js/18.b2a48117.js"><link rel="prefetch" href="/handsome-man/assets/js/19.92c7cc2f.js"><link rel="prefetch" href="/handsome-man/assets/js/20.4623d665.js"><link rel="prefetch" href="/handsome-man/assets/js/21.580986bd.js"><link rel="prefetch" href="/handsome-man/assets/js/23.b1b68274.js"><link rel="prefetch" href="/handsome-man/assets/js/4.108801d8.js"><link rel="prefetch" href="/handsome-man/assets/js/5.dbf3f656.js"><link rel="prefetch" href="/handsome-man/assets/js/6.9106962c.js"><link rel="prefetch" href="/handsome-man/assets/js/7.e8413444.js"><link rel="prefetch" href="/handsome-man/assets/js/8.a05b31d6.js"><link rel="prefetch" href="/handsome-man/assets/js/9.065bc934.js">
+    <link rel="stylesheet" href="/handsome-man/assets/css/0.styles.7f197cba.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container" data-v-1aefc0b4><div data-v-1aefc0b4><div id="loader-wrapper" class="loading-wrapper" data-v-d48f4d20 data-v-1aefc0b4 data-v-1aefc0b4><div class="loader-main" data-v-d48f4d20><div data-v-d48f4d20></div><div data-v-d48f4d20></div><div data-v-d48f4d20></div><div data-v-d48f4d20></div></div> <!----> <!----></div> <div class="password-shadow password-wrapper-out" style="display:none;" data-v-25ba6db2 data-v-1aefc0b4 data-v-1aefc0b4><h3 class="title" data-v-25ba6db2 data-v-25ba6db2>画风一剑</h3> <p class="description" data-v-25ba6db2 data-v-25ba6db2>TypeScript4 最新官方文档翻译</p> <label id="box" class="inputBox" data-v-25ba6db2 data-v-25ba6db2><input type="password" value="" data-v-25ba6db2> <span data-v-25ba6db2>Konck! Knock!</span> <button data-v-25ba6db2>OK</button></label> <div class="footer" data-v-25ba6db2 data-v-25ba6db2><span data-v-25ba6db2><i class="iconfont reco-theme" data-v-25ba6db2></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-25ba6db2>vuePress-theme-reco</a></span> <span data-v-25ba6db2><i class="iconfont reco-copyright" data-v-25ba6db2></i> <a data-v-25ba6db2><!---->
+            
+          <!---->
+          2022
+        </a></span></div></div> <div class="hide" data-v-1aefc0b4><header class="navbar" data-v-1aefc0b4><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/handsome-man/" class="home-link router-link-active"><!----> <span class="site-name">画风一剑</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="mode-options"><h4 class="title">Choose mode</h4> <ul class="color-mode-options"><li class="dark">dark</li><li class="auto active">auto</li><li class="light">light</li></ul></div></div></div> <div class="search-box"><i class="iconfont reco-search"></i> <input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/handsome-man/" class="nav-link"><i class="undefined"></i>
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      本站源码
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/anprettyboy/handsome-man" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="undefined"></i>
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask" data-v-1aefc0b4></div> <aside class="sidebar" data-v-1aefc0b4><div class="personal-info-wrapper" data-v-39576ba9 data-v-1aefc0b4><!----> <!----> <div class="num" data-v-39576ba9><div data-v-39576ba9><h3 data-v-39576ba9>10</h3> <h6 data-v-39576ba9>Articles</h6></div> <div data-v-39576ba9><h3 data-v-39576ba9>0</h3> <h6 data-v-39576ba9>Tags</h6></div></div> <ul class="social-links" data-v-39576ba9></ul> <hr data-v-39576ba9></div> <nav class="nav-links"><div class="nav-item"><a href="/handsome-man/" class="nav-link"><i class="undefined"></i>
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      本站源码
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/anprettyboy/handsome-man" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="undefined"></i>
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----></nav> <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><a href="/handsome-man/" class="sidebar-heading clickable router-link-active open"><span>tech</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/handsome-man/best-of-js-2021/best-of-js-2021.html" class="sidebar-link">盘点2021年Javascript最受关注的项目</a></li><li><section class="sidebar-group is-sub-group depth-1"><a href="/handsome-man/internationalization-in-css" class="sidebar-heading clickable"><span>被忽略的CSS国际化</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/handsome-man/internationalization-in-css/internationalization-in-css.html" class="sidebar-link">CSS国际化</a></li></ul></section></li><li><section class="sidebar-group is-sub-group depth-1"><a href="/handsome-man/google-zx" class="sidebar-heading clickable"><span>Google zx</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/handsome-man/google-zx/zx.html" class="sidebar-link">js写shell的利器--zx</a></li></ul></section></li><li><section class="sidebar-group is-sub-group depth-1"><a href="/handsome-man/connect-to-a-db-in-css" class="sidebar-heading clickable"><span>使用CSS链接数据库</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/handsome-man/connect-to-a-db-in-css/sqlcss.html" class="sidebar-link">使用CSS链接数据库</a></li></ul></section></li><li><section class="sidebar-group is-sub-group depth-1"><a href="/handsome-man/what-web-frameworks-solve" class="sidebar-heading clickable router-link-active open"><span>JS框架能解决什么问题</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/handsome-man/what-web-frameworks-solve/how-to-do-without-web-frameworks.html" aria-current="page" class="active sidebar-link">如果没有WEB框架应该怎么办</a></li></ul></section></li><li><section class="sidebar-group is-sub-group depth-1"><a href="/handsome-man/baseline-for-web-development-2022" class="sidebar-heading clickable"><span>2022年网页开发的基线</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/handsome-man/baseline-for-web-development-2022/baseline-2022.html" class="sidebar-link">The baseline for web development in 2022</a></li></ul></section></li><li><section class="sidebar-group is-sub-group depth-1"><a href="/handsome-man/css-for-internationalization" class="sidebar-heading clickable"><span>CSS国际化</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/handsome-man/css-for-internationalization/css-for-internationalization.html" class="sidebar-link">CSS国际化</a></li></ul></section></li><li><section class="sidebar-group is-sub-group depth-1"><a href="/handsome-man/front-end-writing" class="sidebar-heading clickable"><span>前端写作</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/handsome-man/front-end-writing/golang-enhance-web/golang-web.html" class="sidebar-link">Golang Web</a></li><li><a href="/handsome-man/front-end-writing/i18n-web/i18n-web-arch.html" class="sidebar-link">多语言WEB技术架构</a></li></ul></section></li></ul></section></li></ul> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-25ba6db2 data-v-1aefc0b4><h3 class="title" data-v-25ba6db2 data-v-25ba6db2>JS框架能解决什么问题以及如果没有框架我们该怎么办</h3> <!----> <label id="box" class="inputBox" data-v-25ba6db2 data-v-25ba6db2><input type="password" value="" data-v-25ba6db2> <span data-v-25ba6db2>Konck! Knock!</span> <button data-v-25ba6db2>OK</button></label> <div class="footer" data-v-25ba6db2 data-v-25ba6db2><span data-v-25ba6db2><i class="iconfont reco-theme" data-v-25ba6db2></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-25ba6db2>vuePress-theme-reco</a></span> <span data-v-25ba6db2><i class="iconfont reco-copyright" data-v-25ba6db2></i> <a data-v-25ba6db2><!---->
+            
+          <!---->
+          2022
+        </a></span></div></div> <div data-v-1aefc0b4><main class="page"><section><div class="page-title"><h1 class="title">JS框架能解决什么问题以及如果没有框架我们该怎么办</h1> <div data-v-f875f3fc><i class="iconfont reco-account" data-v-f875f3fc><span data-v-f875f3fc>Marthers(译者)</span></i> <i class="iconfont reco-date" data-v-f875f3fc><span data-v-f875f3fc>2/23/2022</span></i> <!----> <!----></div></div> <div class="theme-reco-content content__default"><p><img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" alt=""></p> <blockquote><p>原文标题：What Web Frameworks Solve And How To Do Without Them</p> <p>原文作者：Noam Rosenthal</p> <p>原文地址：https://www.smashingmagazine.com/2022/01/web-frameworks-guide-part1/</p></blockquote> <h2 id="第一章"><a href="#第一章" class="header-anchor">#</a> 第一章</h2> <h3 id="概要"><a href="#概要" class="header-anchor">#</a> 概要</h3> <p>在本文中，Noam Rosenthal深入研究了一些跨框架通用的技术特性，并解释了一些不同的框架如何实现它们以及它们的成本。</p> <h3 id="作者简介"><a href="#作者简介" class="header-anchor">#</a> 作者简介</h3> <p>Noam Rosenthal是一名WEB平台顾问，WebKit &amp; Chromium贡献者、技术文章写作者，也是一名经验丰富的WEB开发者。他的工作重点是连接WEB开发和浏览器/标准开发。</p> <h3 id="背景"><a href="#背景" class="header-anchor">#</a> 背景</h3> <p>我最近对比较框架和普通的JavaScript非常感兴趣。它开始于我在一些项目中使用React时遇到的一些挫折，以及我最近作为一个规范编辑对web标准有了更深入的了解。</p> <p>我感兴趣的是这些框架之间有什么共同点和不同点，web平台作为一个精简的替代方案应该提供什么，以及它是否足够。我的目标不是抨击框架，而是了解其成本和收益，确定是否存在替代方案，并看看即使我们决定使用框架，我们是否可以从中学习。</p> <p>在第一部分中，我将深入研究一些跨框架通用的技术特性，以及不同框架如何实现这些特性。我还将讨论使用这些框架的成本。</p> <h3 id="框架"><a href="#框架" class="header-anchor">#</a> 框架</h3> <p>我选择了4个框架来研究:React，它是当今的主流框架，还有3个新的竞争者声称他们的工作方式与React不同。</p> <ul><li>React
+&quot;React让我们可以轻松地创建交互ui。声明式视图使代码更可预测，更容易调试。”</li> <li>SolidJS
+“Solid遵循着与React相同的理念……但是它有一个完全不同的实现，放弃了使用虚拟DOM。”</li> <li>Svelte
+“Svelte是一种全新的构建用户界面的方法……当你构建应用时，它是一个编译步骤。Svelte不是使用虚拟DOM差异等技术，而是编写代码，在应用状态发生变化时，外科手术般地更新DOM。”
+<ul><li>Lit
+“在Web Components标准的基础上，Lit添加了……响应式、声明性模板和一些深思熟虑的特性。”
+总结一下这些框架的不同点:</li></ul></li> <li>React通过声明式视图使ui的构建更加容易。</li> <li>SolidJS遵循React的理念，但使用了一种不同的技术。</li> <li>Svelte对ui使用编译时方法。</li> <li>Lit使用现有的标准，并添加了一些轻量级特性。</li></ul> <h3 id="框架解决了什么问题"><a href="#框架解决了什么问题" class="header-anchor">#</a> 框架解决了什么问题</h3> <p>框架本身提到了声明性、响应式和虚拟DOM。让我们来探究一下这意味着什么。</p> <h3 id="声明式编程"><a href="#声明式编程" class="header-anchor">#</a> 声明式编程</h3> <p>声明式编程是一种定义逻辑而不指定控制流的范例。我们描述的是结果需要是什么，而不是我们需要采取什么步骤才能达到目标。</p> <p>在声明式框架的早期，大约在2010年，DOM api要简单和冗长得多，用命命式JavaScript编写web应用程序需要大量的样板代码。这时，<a href="https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel" title="'模型-视图-视图模型'(MVVM)" target="_blank" rel="noopener noreferrer">“模型-视图-视图模型”(MVVM)<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>的概念开始流行起来，当时具有开创性的Knockout和AngularJS框架提供了一个JavaScript声明层来处理库中的复杂性。</p> <p>MVVM现在不是一个广泛使用的术语，它在某种程度上是旧术语“数据绑定”的变体。</p> <h3 id="数据绑定"><a href="#数据绑定" class="header-anchor">#</a> 数据绑定</h3> <p>数据绑定是一种声明性的方式，用来表示数据如何在模型和用户界面之间同步。</p> <p>所有流行的UI框架都提供了某种形式的数据绑定，它们的教程都从一个数据绑定示例开始。</p> <p>下面是JSX中的数据绑定(SolidJS和React):</p> <div class="language-typescript extra-class"><pre class="language-typescript"><code><span class="token keyword">function</span> <span class="token function">HelloWorld</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> name <span class="token operator">=</span> <span class="token string">&quot;Solid or React&quot;</span><span class="token punctuation">;</span>
+  <span class="token keyword">return</span> <span class="token punctuation">(</span>
+      <span class="token operator">&lt;</span>div<span class="token operator">&gt;</span>Hello <span class="token punctuation">{</span>name<span class="token punctuation">}</span><span class="token operator">!</span><span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
+  <span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>Lit中的数据绑定:</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">class</span> <span class="token class-name">HelloWorld</span> <span class="token keyword">extends</span> <span class="token class-name">LitElement</span> <span class="token punctuation">{</span>
+  @<span class="token function">property</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+  name <span class="token operator">=</span> <span class="token string">'lit'</span><span class="token punctuation">;</span>
+
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> html<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">&lt;p&gt;Hello </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span><span class="token keyword">this</span><span class="token punctuation">.</span>name<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">!&lt;/p&gt;</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>Svelte中的数据绑定:</p> <div class="language- extra-class"><pre class="language-text"><code>&lt;script&gt;
+  let name = 'world';
+&lt;/script&gt;
+
+&lt;h1&gt;Hello {name}!&lt;/h1&gt;
+</code></pre></div><h3 id="响应式"><a href="#响应式" class="header-anchor">#</a> 响应式</h3> <p>响应式是一种表达变更传播的声明性方式。</p> <p>当我们有了一种声明式表达数据绑定的方法时，我们需要一种有效的方法让框架传播更改。</p> <p>React引擎会将渲染结果与之前的结果进行比较，并将差异应用到DOM本身。这种处理变更传播的方法称为<a href="https://reactjs.org/docs/faq-internals.html#what-is-the-virtual-dom" title="虚拟DOM" target="_blank" rel="noopener noreferrer">虚拟DOM<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>。</p> <p>在SolidJS中，这是通过其存储和内置元素更显式地完成的。例如，Show元素将跟踪内部发生的变化，而不是虚拟DOM。</p> <p>在Svelte中，会生成“响应式”代码。Svelte知道哪些事件会导致更改，并生成简单的代码，在事件和DOM更改之间划线。</p> <p>在Lit中，响应式是使用元素属性完成的，本质上依赖于HTML自定义元素的内置响应式。</p> <h3 id="逻辑"><a href="#逻辑" class="header-anchor">#</a> 逻辑</h3> <p>当框架为数据绑定提供声明性接口，并实现响应式时，它还需要提供某种方式来表达一些传统上以命定方式编写的逻辑。逻辑的基本构建块是“if”和“for”，所有主要的框架都提供了这些构建块的一些表达式。</p> <h3 id="条件语句-流控制"><a href="#条件语句-流控制" class="header-anchor">#</a> 条件语句/流控制</h3> <p>除了绑定数字和字符串等基本数据外，每个框架都提供一个“条件”原语。在React中，它是这样的:</p> <div class="language- extra-class"><pre class="language-text"><code>const [hasError, setHasError] = useState(false);
+return hasError ? &lt;label&gt;Message&lt;/label&gt; : null;
+…
+setHasError(true);
+
+</code></pre></div><p>SolidJS提供了一个<a href="https://www.solidjs.com/docs/latest/api#%3Cshow%3E" title="内置的条件组件Show" target="_blank" rel="noopener noreferrer">内置的条件组件Show<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>:</p> <div class="language- extra-class"><pre class="language-text"><code>&lt;Show when={state.error}&gt;
+  &lt;label&gt;Message&lt;/label&gt;
+&lt;/Show&gt;
+</code></pre></div><p>Svelte提供了#if指令:</p> <div class="language- extra-class"><pre class="language-text"><code>{#if state.error}
+  &lt;label&gt;Message&lt;/label&gt;
+{/if}
+</code></pre></div><p>在Lit中，你可以在渲染函数中使用一个显式的三目运算操作:</p> <div class="language- extra-class"><pre class="language-text"><code>render() {
+ return this.error ? html`&lt;label&gt;Message&lt;/label&gt;`: null;
+}
+</code></pre></div><h3 id="lists"><a href="#lists" class="header-anchor">#</a> Lists</h3> <p>另一个常见的框架原语是列表处理。列表是ui的关键部分---联系人列表、通知列表等等——为了有效地工作，它们需要是响应式的，而不是在一个数据项发生变化时更新整个列表。</p> <p>在React中，列表处理是这样的:</p> <div class="language- extra-class"><pre class="language-text"><code>contacts.map((contact, index) =&gt;
+ &lt;li key={index}&gt;
+   {contact.name}
+ &lt;/li&gt;)
+
+</code></pre></div><p>React使用特殊的key属性来区分列表项，并确保整个列表不会在每次渲染时被替换。</p> <p>在SolidJS中，for和index是作为内置元素被使用的:</p> <div class="language- extra-class"><pre class="language-text"><code>&lt;For each={state.contacts}&gt;
+  {contact =&gt; &lt;DIV&gt;{contact.name}&lt;/DIV&gt; }
+&lt;/For&gt;
+</code></pre></div><p>在内部，SolidJS使用自己的存储库和for和索引来决定在项目更改时更新哪些元素。它比React更显式，允许我们避免虚拟DOM的复杂性。</p> <p>Svelte使用了each指令，根据它的更新器进行编译:</p> <div class="language- extra-class"><pre class="language-text"><code>{#each contacts as contact}
+  &lt;div&gt;{contact.name}&lt;/div&gt;
+{/each}
+</code></pre></div><p>Lit提供了一个repeat函数，它的工作原理类似于React的键列表映射:</p> <div class="language- extra-class"><pre class="language-text"><code>repeat(contacts, contact =&gt; contact.id,
+    (contact, index) =&gt; html`&lt;div&gt;${contact.name}&lt;/div&gt;`
+</code></pre></div><h3 id="组件模型"><a href="#组件模型" class="header-anchor">#</a> 组件模型</h3> <p>有一件事超出了本文的范围，那就是不同框架中的组件模型，以及如何使用自定义HTML元素来处理它。</p> <p>注: 这是一个很大的主题，我希望在以后的文章中讨论它，因为这篇文章太长了。</p> <h3 id="成本"><a href="#成本" class="header-anchor">#</a> 成本</h3> <p>框架提供了声明性的数据绑定、控制流原语(条件和列表)和响应机制来传播更改。</p> <p>它们还提供了其他主要功能，比如重用组件的方法，但这是另一篇文章的主题。</p> <p>框架有用吗?是的。它们给了我们所有这些方便的特性。但这个问题问对了吗?使用框架是有代价的。让我们看看这些成本是多少。</p> <h3 id="包体积大小"><a href="#包体积大小" class="header-anchor">#</a> 包体积大小</h3> <p>在查看打包后的包大小时，我喜欢查看压缩后的非gzip大小。这是与JavaScript执行的CPU成本最相关的大小。</p> <ul><li>ReactDOM大约是120 KB。</li> <li>SolidJS大约是18kb。</li> <li>Lit约为16 KB。</li> <li>Svelte大约是2 KB，但是生成的代码大小各不相同。
+今天的框架似乎比React做得更好，能够保持包的体积较小。虚拟DOM需要大量的JavaScript。</li></ul> <h3 id="构建"><a href="#构建" class="header-anchor">#</a> 构建</h3> <p>不知怎么的，我们习惯了“构建”我们的网络应用。要启动一个前端项目，必须先建立Node.js和Webpack这样的打包工具，处理Babel-TypeScript的一些配置等等。</p> <p>框架的包大小越小，表达能力越强，构建工具和翻译时间的负担就越大。</p> <p>Svelte声称<a href="https://svelte.dev/blog/virtual-dom-is-pure-overhead" title="虚拟DOM是纯粹的开销" target="_blank" rel="noopener noreferrer">虚拟DOM是纯粹的开销<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>。这一点我同意，但也许“构建”(如使用Svelte和SolidJS)和定制客户端模板引擎(如使用Lit)也是纯粹的开销，是一种不同的表现形式?</p> <h3 id="调试"><a href="#调试" class="header-anchor">#</a> 调试</h3> <p>构建和编译带来了一定的开销和成本。</p> <p>当我们使用或调试web应用程序时，我们看到的代码与我们写的完全不同。我们现在依赖于不同质量的特殊调试工具来逆向工程网站上发生的事情，并将其与我们自己代码中的错误联系起来。</p> <p>在React中，调用栈从来不是“你的”——React为你处理调度。在没有bug的情况下，这种方法非常有效。但是尝试着去识别无限循环重新呈现的原因，你将会经历一个痛苦的世界。</p> <p>在Svelte中，库本身的包大小很小，但你需要发布和调试一大堆神秘的生成代码，这是Svelte的响应式实现，根据应用的需要定制。</p> <p>使用Lit，它与构建无关，但要有效地调试它，您必须理解它的模板引擎。这可能是我对框架持怀疑态度的最大原因。</p> <p>当您寻找自定义声明式解决方案时，您最终会遇到更痛苦的命令式调试。本文档中的示例使用Typescript作为API规范，但代码本身不需要编译。</p> <h4 id="升级"><a href="#升级" class="header-anchor">#</a> 升级</h4> <p>在本文档中，我介绍了4个框架，但还有很多框架(<a href="https://en.wikipedia.org/wiki/Comparison_of_JavaScript-based_web_frameworks" title="基于javascript的WEB框架对比" target="_blank" rel="noopener noreferrer">AngularJS、Ember.js和Vue.js等<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>)。在它的发展过程中，你能指望这个框架、它的开发者、它的人气和它的生态系统为你服务吗?</p> <p>有一件事比修复自己的漏洞更令人沮丧，那就是必须为框架漏洞找到变通方法。还有一件事比框架bug更令人沮丧，那就是当你没有修改代码就将框架升级到一个新版本时出现的bug。</p> <p>确实，这个问题也存在于浏览器中，但是当它发生时，它会发生在每个人身上，并且在大多数情况下，修复或发布的解决方案是迫在眉睫的。此外，本文档中的大多数模式都是基于成熟的web平台api;没有必要总是去流血的边缘。</p> <h3 id="小结"><a href="#小结" class="header-anchor">#</a> 小结</h3> <p>我们深入了解了框架试图解决的核心问题，以及它们如何解决这些问题，重点关注数据绑定、响应式、条件和列表。我们也看了成本。</p> <p>在后面的部分，我们将了解如何在根本不使用框架的情况下解决这些问题，以及我们可以从中学到什么。请继续关注!</p> <p>特别感谢以下每个人的勘校:Yehonatan Daniv, Tom Bigelajzen, Benjamin Greenbaum, Nick Ribal和Louis Lazaris。</p> <h2 id="第二章"><a href="#第二章" class="header-anchor">#</a> 第二章</h2> <p>在第二部分中，Noam提出了一些如何直接使用web平台作为框架提供的一些解决方案的替代方案的模式。</p> <p>在前面的第一章节中，我们从框架试图解决的核心问题的角度出发，研究了使用框架的不同好处和成本，重点关注声明式编程、数据绑定、响应式、列表和条件。现在，我们将看到是否可以从网络平台本身出现一个替代方案。</p> <h3 id="推出自己的框架"><a href="#推出自己的框架" class="header-anchor">#</a> 推出自己的框架?</h3> <p>在没有框架的情况下进行探索，似乎不可避免的结果是使用自己的框架来进行响应式数据绑定。在之前尝试过这种方法，并看到它的代价有多大后，我决定在这次探索中遵循一条指导原则;我并不是要推出我自己的框架，而是想看看我能否以一种让框架变得不那么必要的方式直接使用web平台。如果您考虑使用自己的框架，请注意有一组成本没有在本文中讨论。</p> <h3 id="vanilla-choices"><a href="#vanilla-choices" class="header-anchor">#</a> Vanilla Choices</h3> <p>web平台已经提供了一种开箱即用的声明式编程机制:HTML和CSS。这种机制是成熟的、经过良好测试的、流行的、广泛使用的和有文档记载的。但是，它没有提供明确的内置概念，如数据绑定、条件呈现和列表同步，而响应式是跨多个平台特性的一个微妙细节。</p> <p>当我浏览流行框架的文档时，我可以直接找到第1部分中描述的特性。当我阅读web平台文档时(例如，在<a href="https://developer.mozilla.org/zh-CN/" title="MDN" target="_blank" rel="noopener noreferrer">MDN<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>上)，我发现了许多令人困惑的如何做事的模式，没有数据绑定、列表同步或响应式的结论性表示。我将尝试绘制一些在web平台上解决这些问题的指导方针，而不需要框架(换句话说，通过普通的方式)。</p> <h3 id="稳定的dom树和级联"><a href="#稳定的dom树和级联" class="header-anchor">#</a> 稳定的DOM树和级联</h3> <p>让我们回到错误标签的例子。在ReactJS和SolidJS中，我们创建的声明式代码转换为命令式代码，将标签添加到DOM或删除它。在Svelte中，生成该代码。</p> <p>但是如果我们根本没有这些代码，而是使用CSS来隐藏和显示错误标签呢?</p> <div class="language- extra-class"><pre class="language-text"><code>&lt;style&gt;
+    label.error { display: none; }
+    .app.has-error label.error {display: block; }
+&lt;/style&gt;
+&lt;label class=&quot;error&quot;&gt;Message&lt;/label&gt;
+
+&lt;script&gt;
+   app.classList.toggle('has-error', true);
+&lt;/script&gt;
+</code></pre></div><p>在这种情况下，响应式在浏览器中处理——应用程序对类的更改传播到它的后代，直到浏览器中的内部机制决定是否呈现标签。</p> <p>这种技术有几个优点:</p> <ul><li>bundle大小为0。</li> <li>没有任何构建步骤。</li> <li>在本地浏览器代码中，更改传播经过了优化和测试，并避免了不必要的昂贵DOM操作，如追加和删除。</li> <li>选择器是稳定的。在本例中，您可以依赖label元素的存在。你可以在不依赖“转换组”等复杂构造的情况下对其应用动画。您可以在JavaScript中保存对它的引用。</li> <li>如果标签显示或隐藏，您可以在开发人员工具的样式面板中看到原因，它向您显示整个级联，最终在标签中的规则链是可见的(或隐藏的)。
+即使您阅读了这篇文章并选择继续使用框架，使用CSS保持DOM稳定和状态变化的想法也是非常强大的。考虑一下这对你可能有用的地方。</li></ul> <h3 id="面向表单的-数据绑定"><a href="#面向表单的-数据绑定" class="header-anchor">#</a> 面向表单的“数据绑定”</h3> <p>在使用大量javascript的单页应用程序(spa)时代之前，表单是创建包含用户输入的web应用程序的主要方式。传统上，用户将填写表单并单击“Submit”按钮，然后服务器端代码将处理响应。表单是数据绑定和交互性的多页应用程序版本。毫无疑问，具有输入和输出基本名称的HTML元素是表单元素。</p> <p>由于表单api的广泛使用和悠久的历史，它积累了一些隐藏的优点，使得它们可以用于那些传统上认为由表单解决不了的问题。</p> <h3 id="作为稳定选择器的表单和表单元素"><a href="#作为稳定选择器的表单和表单元素" class="header-anchor">#</a> 作为稳定选择器的表单和表单元素</h3> <p>表单可以通过名称访问(使用<a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/forms" target="_blank" rel="noopener noreferrer">document.forms<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> &quot;document.forms&quot;)，每个表单元素都可以通过名称访问(使用form.elements)。此外，可以访问与元素相关联的表单(使用<a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement" title="form attributes" target="_blank" rel="noopener noreferrer">form attributes<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>)。这不仅包括input元素，还包括其他表单元素，如output、textarea和fieldset，这允许嵌套访问树中的元素。</p> <p>在上一节的错误标签示例中，我们展示了如何响应式地显示和隐藏错误消息。这是我们在React中更新错误消息文本的方法(在SolidJS中也是如此):</p> <div class="language- extra-class"><pre class="language-text"><code>const [errorMessage, setErrorMessage] = useState(null);
+return &lt;label className=&quot;error&quot;&gt;{errorMessage}&lt;/label&gt;
+</code></pre></div><p>当我们有一个稳定的DOM和稳定的树形式和表单元素时，我们可以做以下事情:</p> <div class="language- extra-class"><pre class="language-text"><code>&lt;form name=&quot;contactForm&quot;&gt;
+  &lt;fieldset name=&quot;email&quot;&gt;
+     &lt;output name=&quot;error&quot;&gt;&lt;/output&gt;
+  &lt;/fieldset&gt;
+&lt;/form&gt;
+
+&lt;script&gt;
+  function setErrorMessage(message) {
+  document.forms.contactForm.elements.email.elements.error.value = message;
+  }
+&lt;/script&gt;
+</code></pre></div><p>它的原始形式看起来相当冗长，但它也非常稳定、直接和高性能。</p> <h3 id="input表单"><a href="#input表单" class="header-anchor">#</a> input表单</h3> <p>通常，当我们构建SPA时，我们会使用一些类似json的API来更新我们的服务器或我们使用的任何模型。</p> <p>这是一个很熟悉的例子(为了便于阅读，是用Typescript写的):</p> <div class="language- extra-class"><pre class="language-text"><code>interface Contact {
+  id: string;
+  name: string;
+  email: string;
+  subscriber: boolean;
+}
+
+function updateContact(contact: Contact) { … }
+</code></pre></div><p>在框架代码中，通过选择输入元素并一块一块地构造对象来生成这个Contact对象是很常见的。正确使用表单，有一个简洁的替代方案:</p> <div class="language- extra-class"><pre class="language-text"><code>&lt;form name=&quot;contactForm&quot;&gt;
+  &lt;input name=&quot;id&quot; type=&quot;hidden&quot; value=&quot;136&quot; /&gt;
+  &lt;input name=&quot;email&quot; type=&quot;email&quot;/&gt;
+  &lt;input name=&quot;name&quot; type=&quot;string&quot; /&gt;
+  &lt;input name=&quot;subscriber&quot; type=&quot;checkbox&quot; /&gt;
+&lt;/form&gt;
+
+&lt;script&gt;
+   updateContact(Object.fromEntries(
+       new FormData(document.forms.contactForm));
+&lt;/script&gt;
+</code></pre></div><p>通过使用隐藏的输入和有用的FormData类，我们可以在DOM输入和JavaScript函数之间无缝地转换值。</p> <h3 id="组合表单和响应式"><a href="#组合表单和响应式" class="header-anchor">#</a> 组合表单和响应式</h3> <p>通过结合表单的高性能选择器稳定性和CSS响应式，我们可以实现更复杂的UI逻辑:</p> <div class="language- extra-class"><pre class="language-text"><code>&lt;form name=&quot;contactForm&quot;&gt;
+  &lt;input name=&quot;showErrors&quot; type=&quot;checkbox&quot; hidden /&gt;
+  &lt;fieldset name=&quot;names&quot;&gt;
+     &lt;input name=&quot;name&quot; /&gt;
+     &lt;output name=&quot;error&quot;&gt;&lt;/output&gt;
+  &lt;/fieldset&gt;
+  &lt;fieldset name=&quot;emails&quot;&gt;
+     &lt;input name=&quot;email&quot; /&gt;
+     &lt;output name=&quot;error&quot;&gt;&lt;/output&gt;
+  &lt;/fieldset&gt;
+&lt;/form&gt;
+
+&lt;script&gt;
+  function setErrorMessage(section, message) {
+  document.forms.contactForm.elements[section].elements.error.value = message;
+  }
+  function setShowErrors(show) {
+  document.forms.contactForm.elements.showErrors.checked = show;
+  }
+&lt;/script&gt;
+
+&lt;style&gt;
+   input[name=&quot;showErrors&quot;]:not(:checked) ~ * output[name=&quot;error&quot;] {
+      display: none;
+   }
+&lt;/style&gt;
+
+</code></pre></div><p>注意，在这个例子中没有使用类——我们从表单的数据中开发DOM的行为和样式，而不是手工更改元素类。</p> <p>我不喜欢过度使用CSS类作为JavaScript选择器。我认为它们应该用于将类似样式的元素组合在一起，而不是作为一种改变组件样式的万能机制。</p> <h3 id="表单的优点"><a href="#表单的优点" class="header-anchor">#</a> 表单的优点</h3> <ul><li>与级联一样，表单是构建在web平台上的，而且它们的大部分特性都是稳定的。这意味着更少的JavaScript，更少的框架版本不匹配，没有“构建”。</li> <li>默认情况下，表单是可访问的。如果您的应用程序正确地使用表单，那么对ARIA属性、“可访问性插件”和最后审计的需求就会小得多。表单本身可以用于键盘导航、屏幕阅读器和其他辅助技术。</li> <li>表单具有内置的输入验证功能:通过正则表达式验证，在CSS中对无效和有效表单的反应，处理必需的和可选的表单，等等。您不需要一些看起来像表单的东西来享受这些特性。</li> <li>表单的提交事件非常有用。例如，它允许在没有提交按钮的情况下捕获“Enter”键，并允许通过提交者属性区分多个提交按钮(我们将在稍后的TODO示例中看到)。</li> <li>默认情况下，元素与它们所包含的表单相关联，但可以使用form属性与文档中的任何其他表单相关联。这允许我们在不依赖DOM树的情况下处理表单关联。</li> <li>使用稳定的选择器有助于UI测试自动化:我们可以使用嵌套的API作为一种稳定的方式来钩子到DOM，而不管它的布局和层次结构。form&gt;fieldset&gt;element层次结构可以作为文档的交互框架。</li></ul> <h3 id="chacha和html模板"><a href="#chacha和html模板" class="header-anchor">#</a> Chacha和HTML模板</h3> <p>框架提供了自己的表达可观察列表的方式。如今，许多开发人员也依赖于提供这类特性的非框架库，比如MobX。</p> <p>通用目的可观察列表的主要问题是它们是通用的。这在降低性能的同时增加了便利性，而且还需要特殊的开发工具来调试这些库在后台执行的复杂操作。</p> <p>使用这些库并理解它们的作用是可以的，而且不管UI框架的选择如何，它们都是有用的，但是使用替代方法可能不会更复杂，而且它可能会防止在尝试运行自己的模型时发生的一些陷阱。</p> <h3 id="变化通道-或chacha"><a href="#变化通道-或chacha" class="header-anchor">#</a> 变化通道(或CHACHA)</h3> <p>ChaCha—也被称为变更通道—是一个双向流，其目的是通知意图方向和观察方向的变更。</p> <ul><li>在意图方向中，UI通知模型用户想要进行的更改。</li> <li>在观察方向上，模型通知UI对模型所做的更改，以及需要向用户显示的更改。
+这也许是个有趣的名字，但它并不是一个复杂或新颖的模式。双向流在网络和软件中随处可见(例如MessagePort)。在这种情况下，我们创建了一个双向流，它有一个特殊的目的:向UI报告实际的模型更改和向模型报告意图。</li></ul> <p>ChaCha的接口通常可以从应用的规范中派生出来，而不需要任何UI代码。</p> <p>例如，一个应用程序允许你添加和删除联系人，并从服务器加载初始列表(带有刷新选项)，它可以有这样一个ChaCha:</p> <div class="language- extra-class"><pre class="language-text"><code>interface Contact {
+  id: string;
+  name: string;
+  email: string;
+}
+// &quot;Observe&quot; Direction
+interface ContactListModelObserver {
+  onAdd(contact: Contact);
+  onRemove(contact: Contact);
+  onUpdate(contact: Contact);
+}
+// &quot;Intent&quot; Direction
+interface ContactListModel {
+  add(contact: Contact);
+  remove(contact: Contact);
+  reloadFromServer();
+}
+</code></pre></div><p>注意，这两个接口中的所有函数都是void，并且只接收普通对象。这是故意的。ChaCha构建起来就像一个有两个端口的通道来发送消息，这允许它在EventSource、HTML MessageChannel、service worker或任何其他协议中工作。</p> <p>ChaChas的优点是易于测试:您发送动作并期待特定的调用返回给观察者。</p> <h3 id="列表项的html模板元素"><a href="#列表项的html模板元素" class="header-anchor">#</a> 列表项的HTML模板元素</h3> <p>HTML模板是存在于DOM中但不被显示的特殊元素。它们的目的是生成动态元素。</p> <p>当我们使用模板元素时，我们可以避免所有创建元素并在JavaScript中填充它们的样板代码。</p> <p>下面将使用模板将一个名字添加到列表中:</p> <div class="language- extra-class"><pre class="language-text"><code>&lt;ul id=&quot;names&quot;&gt;
+  &lt;template&gt;
+   &lt;li&gt;&lt;label class=&quot;name&quot; /&gt;&lt;/li&gt;
+  &lt;/template&gt;
+&lt;/ul&gt;
+&lt;script&gt;
+  function addName(name) {
+    const list = document.querySelector('#names');
+    const item = list.querySelector('template').content.cloneNode(true).firstElementChild;
+    item.querySelector('label').innerText = name;
+    list.appendChild(item);
+  }
+&lt;/script&gt;
+</code></pre></div><p>通过使用列表项的模板元素，我们可以在原始HTML中看到列表项——它不是用JSX或其他语言“呈现”的。你的HTML文件现在包含了应用程序的所有HTML -静态部分是渲染DOM的一部分，动态部分在模板中表示，准备在时机成熟时被克隆和追加到文档中。</p> <h3 id="把它放在一起-todomvc"><a href="#把它放在一起-todomvc" class="header-anchor">#</a> 把它放在一起:TodoMVC</h3> <p><a href="https://todomvc.com/" title="TodoMVC" target="_blank" rel="noopener noreferrer">TodoMVC<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>是一个TODO列表的应用规范，用于展示不同的框架。TodoMVC模板附带了现成的HTML和CSS，以帮助您专注于框架。</p> <p>你可以在GitHub库中使用<a href="https://noamr.github.io/todomvc-app-template/index.html" title="the result" target="_blank" rel="noopener noreferrer">结果<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>，<a href="https://github.com/noamr/todomvc-app-template" title="full source code" target="_blank" rel="noopener noreferrer">完整的源代码<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>是可用的。</p> <h3 id="从规范派生的chacha"><a href="#从规范派生的chacha" class="header-anchor">#</a> 从规范派生的chacha</h3> <p>我们将从<a href="https://github.com/tastejs/todomvc/blob/master/app-spec.md" title="app-spec" target="_blank" rel="noopener noreferrer">规范<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>开始，并使用它来构建ChaCha接口:</p> <div class="language- extra-class"><pre class="language-text"><code>interface Task {
+   title: string;
+   completed: boolean;
+}
+
+interface TaskModelObserver {
+   onAdd(key: number, value: Task);
+   onUpdate(key: number, value: Task);
+   onRemove(key: number);
+   onCountChange(count: {active: number, completed: number});
+}
+
+interface TaskModel {
+   constructor(observer: TaskModelObserver);
+   createTask(task: Task): void;
+   updateTask(key: number, task: Task): void;
+   deleteTask(key: number): void;
+   clearCompleted(): void;
+   markAll(completed: boolean): void;
+}
+</code></pre></div><p>任务模型中的功能直接从规范和用户可以做的事情中派生出来(清除已完成的任务，将所有任务标记为已完成或活动，获得活动和已完成的计数)。</p> <p>请注意，它遵循ChaCha的指导原则:</p> <ul><li>有两个界面，一个是动作界面，一个是观察界面。</li> <li>所有参数类型都是原语或普通对象(很容易转换为JSON)。</li> <li>所有的函数都返回void。</li> <li>TodoMVC的实现使用localStorage作为后端。
+该模型非常简单，与UI框架的讨论没有太大关系。当需要时，它将保存到localStorage，并在一些变化时(无论是由于用户操作的结果，还是当模型第一次从localStorage加载时)向观察者发出更改回调。</li></ul> <h3 id="精益-面向表单的html"><a href="#精益-面向表单的html" class="header-anchor">#</a> 精益，面向表单的HTML</h3> <p>接下来，我将使用TodoMVC模板，并将其修改为面向表单的—表单的层次结构，输入和输出元素表示可以用JavaScript更改的数据。</p> <p>我如何知道是否需要一个表单元素?根据经验，如果它绑定到模型中的数据，那么它应该是一个表单元素。</p> <p><a href="https://github.com/noamr/todomvc-app-template/blob/main/index.html" title="todomvc-app-template" target="_blank" rel="noopener noreferrer">完整的HTML代码<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>是可用的，但这里是它的主要部分:</p> <div class="language- extra-class"><pre class="language-text"><code>&lt;section class=&quot;todoapp&quot;&gt;
+   &lt;header class=&quot;header&quot;&gt;
+       &lt;h1&gt;todos&lt;/h1&gt;
+       &lt;form name=&quot;newTask&quot;&gt;
+           &lt;input name=&quot;title&quot; type=&quot;text&quot; placeholder=&quot;What needs to be done?&quot; autofocus&gt;
+       &lt;/form&gt;
+   &lt;/header&gt;
+
+   &lt;main&gt;
+       &lt;form id=&quot;main&quot;&gt;&lt;/form&gt;
+       &lt;input type=&quot;hidden&quot; name=&quot;filter&quot; form=&quot;main&quot; /&gt;
+       &lt;input type=&quot;hidden&quot; name=&quot;completedCount&quot; form=&quot;main&quot; /&gt;
+       &lt;input type=&quot;hidden&quot; name=&quot;totalCount&quot; form=&quot;main&quot; /&gt;
+       &lt;input name=&quot;toggleAll&quot; type=&quot;checkbox&quot; form=&quot;main&quot; /&gt;
+
+       &lt;ul class=&quot;todo-list&quot;&gt;
+           &lt;template&gt;
+               &lt;form class=&quot;task&quot;&gt;
+                   &lt;li&gt;
+                       &lt;input name=&quot;completed&quot; type=&quot;checkbox&quot; checked&gt;
+                       &lt;input name=&quot;title&quot; readonly /&gt;
+                       &lt;input type=&quot;submit&quot; hidden name=&quot;save&quot; /&gt;
+                       &lt;button name=&quot;destroy&quot;&gt;X&lt;/button&gt;
+                   &lt;/li&gt;
+               &lt;/form&gt;
+           &lt;/template&gt;
+       &lt;/ul&gt;
+   &lt;/main&gt;
+
+   &lt;footer&gt;
+       &lt;output form=&quot;main&quot; name=&quot;activeCount&quot;&gt;0&lt;/output&gt;
+       &lt;nav&gt;
+           &lt;a name=&quot;/&quot; href=&quot;#/&quot;&gt;All&lt;/a&gt;
+           &lt;a name=&quot;/active&quot; href=&quot;#/active&quot;&gt;Active&lt;/a&gt;
+           &lt;a name=&quot;/completed&quot; href=&quot;#/completed&quot;&gt;Completed&lt;/a&gt;
+       &lt;/nav&gt;
+       &lt;input form=&quot;main&quot; type=&quot;button&quot; name=&quot;clearCompleted&quot; value=&quot;Clear completed&quot; /&gt;
+   &lt;/footer&gt;
+&lt;/section&gt;
+</code></pre></div><p>本HTML包括以下内容:</p> <ul><li>我们有一个主表单，其中包含所有全局输入和按钮，还有一个用于创建新任务的新表单。注意，我们使用<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#attr-form" title="form attribute" target="_blank" rel="noopener noreferrer">form属性<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>将元素与表单关联起来，以避免元素在表单中嵌套。</li> <li>模板元素表示一个列表项，它的根元素是另一个表单，表示与特定任务相关的交互式数据。当添加任务时，可以通过克隆模板的内容来重复这个表单。</li> <li>隐藏输入表示没有直接显示的数据，但用于样式化和选择。
+注意这个DOM是如何简洁的。它的元素中没有分散的类。它包含了应用程序所需的所有元素，以合理的层次结构排列。由于隐藏的输入元素，您已经可以很好地了解文档稍后可能发生的更改。</li></ul> <p>这个HTML不知道它将如何被样式化，也不知道它将绑定到什么数据。让CSS和JavaScript为HTML工作，而不是让HTML为特定的样式机制工作。这将使更改设计变得更加容易。</p> <h3 id="最小化的controller-javascript"><a href="#最小化的controller-javascript" class="header-anchor">#</a> 最小化的Controller---javascript</h3> <p>现在我们在CSS中有了大部分的反应性，并且在模型中有了列表处理，剩下的就是Controller代码——将所有东西连接在一起的管道胶带。在这个小应用程序中，<a href="https://github.com/noamr/todomvc-app-template/blob/main/js/app.js" title="controller js" target="_blank" rel="noopener noreferrer">Controller JavaScript<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>大约有40行代码。</p> <p>下面是一个版本，并对每个部分进行了解释:</p> <div class="language- extra-class"><pre class="language-text"><code>import TaskListModel from './model.js';
+
+const model = new TaskListModel(new class {
+</code></pre></div><p>在上面的代码中，我们创建了一个新模型。</p> <div class="language- extra-class"><pre class="language-text"><code>onAdd(key, value) {
+   const newItem = document.querySelector('.todo-list template').content.cloneNode(true).firstElementChild;
+   newItem.name = `task-${key}`;
+   const save = () =&gt; model.updateTask(key,  Object.fromEntries(new FormData(newItem)));
+   newItem.elements.completed.addEventListener('change', save);
+   newItem.addEventListener('submit', save);
+   newItem.elements.title.addEventListener('dblclick', ({target}) =&gt; target.removeAttribute('readonly'));
+   newItem.elements.title.addEventListener('blur', ({target}) =&gt; target.setAttribute('readonly', ''));
+   newItem.elements.destroy.addEventListener('click', () =&gt; model.deleteTask(key));
+   this.onUpdate(key, value, newItem);
+   document.querySelector('.todo-list').appendChild(newItem);
+}
+</code></pre></div><p>当一个项目被添加到模型中时，我们会在UI中创建相应的列表项目。</p> <p>在上面，我们克隆了条目模板的内容，为特定的条目分配了事件监听器，并将新条目添加到列表中。</p> <p>请注意，这个函数，连同onUpdate、onRemove和onCountChange，都是从<a href="https://github.com/noamr/todomvc-app-template/blob/main/js/model.js" title="model.js" target="_blank" rel="noopener noreferrer">模型<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>中调用的回调函数。</p> <div class="language- extra-class"><pre class="language-text"><code>onUpdate(key, {title, completed}, form = document.forms[`task-${key}`]) {
+   form.elements.completed.checked = !!completed;
+   form.elements.title.value = title;
+   form.elements.title.blur();
+}
+</code></pre></div><p>当一个项目被更新时，我们设置它的complete和title值，然后失去焦点(退出编辑模式)。</p> <div class="language- extra-class"><pre class="language-text"><code>onRemove(key) { document.forms[`task-${key}`].remove(); }
+</code></pre></div><p>当一个项目从模型中移除时，我们从视图中移除它对应的列表项目。</p> <div class="language- extra-class"><pre class="language-text"><code>onCountChange({active, completed}) {
+   document.forms.main.elements.completedCount.value = completed;
+   document.forms.main.elements.toggleAll.checked = active === 0;
+   document.forms.main.elements.totalCount.value = active + completed;
+   document.forms.main.elements.activeCount.innerHTML = `&lt;strong&gt;${active}&lt;/strong&gt; item${active === 1 ? '' : 's'} left`;
+}
+</code></pre></div><p>在上面的代码中，当完成或活动项目的数量发生变化时，我们设置适当的输入来触发CSS反应，并格式化显示计数的输出。</p> <div class="language- extra-class"><pre class="language-text"><code>const updateFilter = () =&gt; filter.value = location.hash.substr(2);
+window.addEventListener('hashchange', updateFilter);
+window.addEventListener('load', updateFilter);
+</code></pre></div><p>然后我们从哈希片段(以及在启动时)更新过滤器。上面我们所做的一切只是设置一个表单元素的值——CSS处理其余的事情。</p> <div class="language- extra-class"><pre class="language-text"><code>document.querySelector('.todoapp').addEventListener('submit', e =&gt; e.preventDefault(), {capture: true});
+</code></pre></div><p>这里，我们确保表单提交时不会重新加载页面。就是这条线把这个应用变成了SPA中心。</p> <div class="language- extra-class"><pre class="language-text"><code>document.forms.newTask.addEventListener('submit', ({target: {elements: {title}}}) =&gt;
+    model.createTask({title: title.value}));
+document.forms.main.elements.toggleAll.addEventListener('change', ({target: {checked}})=&gt;
+    model.markAll(checked));
+document.forms.main.elements.clearCompleted.addEventListener('click', () =&gt;
+    model.clearCompleted());
+</code></pre></div><p>这将处理主要操作(创建、标记全部、清除完成)。</p> <h4 id="使用css进行响应式"><a href="#使用css进行响应式" class="header-anchor">#</a> 使用CSS进行响应式</h4> <p>您可以查看完整的<a href="https://github.com/noamr/todomvc-app-template/blob/main/css/app.css" title="app.css" target="_blank" rel="noopener noreferrer">CSS代码<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>。</p> <p>CSS处理规范中的很多要求(为了便于访问，还做了一些修改)。让我们看一些例子。</p> <p>根据规范，“X”(摧毁)按钮只在悬停时显示。我还添加了一个可访问性位，使其在任务集中时可见:</p> <div class="language- extra-class"><pre class="language-text"><code>.task:not(:hover, :focus-within) button[name=&quot;destroy&quot;] { opacity: 0 }
+</code></pre></div><p>当过滤器链接是当前链接时，它会得到一个红色的边框:</p> <div class="language- extra-class"><pre class="language-text"><code>.todoapp input[name=&quot;filter&quot;][value=&quot;&quot;] ~ footer a[href$=&quot;#/&quot;],
+nav a:target {
+   border-color: #CE4646;
+}
+</code></pre></div><p>注意，我们可以使用link元素的href作为部分属性选择器——不需要JavaScript检查当前的过滤器，并在适当的元素上设置一个选定的类。</p> <p>我们还使用:target选择器，这使我们不必担心是否要添加过滤器。</p> <p>标题输入的视图和编辑样式会根据其只读模式而改变:</p> <div class="language- extra-class"><pre class="language-text"><code>.task input[name=&quot;title&quot;]:read-only {
+…
+}
+
+.task input[name=&quot;title&quot;]:not(:read-only) {
+…
+}
+</code></pre></div><p>筛选(即只显示活动的和已完成的任务)是通过选择器来完成的:</p> <div class="language- extra-class"><pre class="language-text"><code>input[name=&quot;filter&quot;][value=&quot;active&quot;] ~ * .task
+      :is(input[name=&quot;completed&quot;]:checked, input[name=&quot;completed&quot;]:checked ~ *),
+input[name=&quot;filter&quot;][value=&quot;completed&quot;] ~ * .task
+     :is(input[name=&quot;completed&quot;]:not(:checked), input[name=&quot;completed&quot;]:not(:checked) ~ *) {
+   display: none;
+}
+</code></pre></div><p>上面的代码可能看起来有点冗长，使用CSS预处理器(如Sass)可能更容易阅读。但是它所做的事情很简单:如果过滤器是活动的，完成的复选框被选中，或者反之亦然，那么我们隐藏复选框和它的兄弟。</p> <p>我选择在CSS中实现这个简单的过滤器，以显示它能走多远，但如果它开始变得复杂，那么它将完全有意义的移动到模型中。</p> <h3 id="结论和要点"><a href="#结论和要点" class="header-anchor">#</a> 结论和要点</h3> <p>我相信框架为实现复杂的任务提供了方便的方法，而且除了技术方面的好处，比如让一组开发人员遵循特定的风格和模式。web平台提供了许多选择，采用框架可以让每个人至少部分地在某些选择上站在同一页上。这是有价值的。另外，声明式编程的优雅也有值得说明的地方，而组件化的主要特性并不是本文讨论的内容。</p> <p>但是请记住，存在替代模式，通常成本更低，并不总是需要更少的开发人员经验。允许自己对这些模式感到好奇，即使您决定在使用框架时从中挑选。</p> <h3 id="模式回顾"><a href="#模式回顾" class="header-anchor">#</a> 模式回顾</h3> <ul><li>保持DOM树稳定。它开始了让事情变得简单的连锁反应。</li> <li>在可能的情况下，依靠CSS而不是JavaScript来实现响应式。</li> <li>使用表单元素作为表示交互式数据的主要方式。</li> <li>使用HTML模板元素而不是javascript生成的模板。</li> <li>使用双向的数据流作为模型的接口。</li></ul> <p>再次感谢各位同侪的文章勘校工作:Yehonatan Daniv, Tom Bigelajzen, Benjamin Greenbaum, Nick Ribal, Louis Lazaris。</p></div></section> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev"><a href="/handsome-man/connect-to-a-db-in-css/sqlcss.html" class="prev">
+            使用CSS链接数据库
+          </a></span> <span class="next"><a href="/handsome-man/baseline-for-web-development-2022/baseline-2022.html">
+            The baseline for web development in 2022
+          </a></span></p></div> <div class="comments-wrapper"><!----></div> <ul class="side-bar sub-sidebar-wrapper" style="width:12rem;" data-v-cb1513f6><li class="level-2" data-v-cb1513f6><a href="/handsome-man/what-web-frameworks-solve/how-to-do-without-web-frameworks.html#第一章" class="sidebar-link reco-side-第一章" data-v-cb1513f6>第一章</a></li><li class="level-3" data-v-cb1513f6><a href="/handsome-man/what-web-frameworks-solve/how-to-do-without-web-frameworks.html#概要" class="sidebar-link reco-side-概要" data-v-cb1513f6>概要</a></li><li class="level-3" data-v-cb1513f6><a href="/handsome-man/what-web-frameworks-solve/how-to-do-without-web-frameworks.html#作者简介" class="sidebar-link reco-side-作者简介" data-v-cb1513f6>作者简介</a></li><li class="level-3" data-v-cb1513f6><a href="/handsome-man/what-web-frameworks-solve/how-to-do-without-web-frameworks.html#背景" class="sidebar-link reco-side-背景" data-v-cb1513f6>背景</a></li><li class="level-3" data-v-cb1513f6><a href="/handsome-man/what-web-frameworks-solve/how-to-do-without-web-frameworks.html#框架" class="sidebar-link reco-side-框架" data-v-cb1513f6>框架</a></li><li class="level-3" data-v-cb1513f6><a href="/handsome-man/what-web-frameworks-solve/how-to-do-without-web-frameworks.html#框架解决了什么问题" class="sidebar-link reco-side-框架解决了什么问题" data-v-cb1513f6>框架解决了什么问题</a></li><li class="level-3" data-v-cb1513f6><a href="/handsome-man/what-web-frameworks-solve/how-to-do-without-web-frameworks.html#声明式编程" class="sidebar-link reco-side-声明式编程" data-v-cb1513f6>声明式编程</a></li><li class="level-3" data-v-cb1513f6><a href="/handsome-man/what-web-frameworks-solve/how-to-do-without-web-frameworks.html#数据绑定" class="sidebar-link reco-side-数据绑定" data-v-cb1513f6>数据绑定</a></li><li class="level-3" data-v-cb1513f6><a href="/handsome-man/what-web-frameworks-solve/how-to-do-without-web-frameworks.html#响应式" class="sidebar-link reco-side-响应式" data-v-cb1513f6>响应式</a></li><li class="level-3" data-v-cb1513f6><a href="/handsome-man/what-web-frameworks-solve/how-to-do-without-web-frameworks.html#逻辑" class="sidebar-link reco-side-逻辑" data-v-cb1513f6>逻辑</a></li><li class="level-3" data-v-cb1513f6><a href="/handsome-man/what-web-frameworks-solve/how-to-do-without-web-frameworks.html#条件语句-流控制" class="sidebar-link reco-side-条件语句-流控制" data-v-cb1513f6>条件语句/流控制</a></li><li class="level-3" data-v-cb1513f6><a href="/handsome-man/what-web-frameworks-solve/how-to-do-without-web-frameworks.html#lists" class="sidebar-link reco-side-lists" data-v-cb1513f6>Lists</a></li><li class="level-3" data-v-cb1513f6><a href="/handsome-man/what-web-frameworks-solve/how-to-do-without-web-frameworks.html#组件模型" class="sidebar-link reco-side-组件模型" data-v-cb1513f6>组件模型</a></li><li class="level-3" data-v-cb1513f6><a href="/handsome-man/what-web-frameworks-solve/how-to-do-without-web-frameworks.html#成本" class="sidebar-link reco-side-成本" data-v-cb1513f6>成本</a></li><li class="level-3" data-v-cb1513f6><a href="/handsome-man/what-web-frameworks-solve/how-to-do-without-web-frameworks.html#包体积大小" class="sidebar-link reco-side-包体积大小" data-v-cb1513f6>包体积大小</a></li><li class="level-3" data-v-cb1513f6><a href="/handsome-man/what-web-frameworks-solve/how-to-do-without-web-frameworks.html#构建" class="sidebar-link reco-side-构建" data-v-cb1513f6>构建</a></li><li class="level-3" data-v-cb1513f6><a href="/handsome-man/what-web-frameworks-solve/how-to-do-without-web-frameworks.html#调试" class="sidebar-link reco-side-调试" data-v-cb1513f6>调试</a></li><li class="level-3" data-v-cb1513f6><a href="/handsome-man/what-web-frameworks-solve/how-to-do-without-web-frameworks.html#小结" class="sidebar-link reco-side-小结" data-v-cb1513f6>小结</a></li><li class="level-2" data-v-cb1513f6><a href="/handsome-man/what-web-frameworks-solve/how-to-do-without-web-frameworks.html#第二章" class="sidebar-link reco-side-第二章" data-v-cb1513f6>第二章</a></li><li class="level-3" data-v-cb1513f6><a href="/handsome-man/what-web-frameworks-solve/how-to-do-without-web-frameworks.html#推出自己的框架" class="sidebar-link reco-side-推出自己的框架" data-v-cb1513f6>推出自己的框架?</a></li><li class="level-3" data-v-cb1513f6><a href="/handsome-man/what-web-frameworks-solve/how-to-do-without-web-frameworks.html#vanilla-choices" class="sidebar-link reco-side-vanilla-choices" data-v-cb1513f6>Vanilla Choices</a></li><li class="level-3" data-v-cb1513f6><a href="/handsome-man/what-web-frameworks-solve/how-to-do-without-web-frameworks.html#稳定的dom树和级联" class="sidebar-link reco-side-稳定的dom树和级联" data-v-cb1513f6>稳定的DOM树和级联</a></li><li class="level-3" data-v-cb1513f6><a href="/handsome-man/what-web-frameworks-solve/how-to-do-without-web-frameworks.html#面向表单的-数据绑定" class="sidebar-link reco-side-面向表单的-数据绑定" data-v-cb1513f6>面向表单的“数据绑定”</a></li><li class="level-3" data-v-cb1513f6><a href="/handsome-man/what-web-frameworks-solve/how-to-do-without-web-frameworks.html#作为稳定选择器的表单和表单元素" class="sidebar-link reco-side-作为稳定选择器的表单和表单元素" data-v-cb1513f6>作为稳定选择器的表单和表单元素</a></li><li class="level-3" data-v-cb1513f6><a href="/handsome-man/what-web-frameworks-solve/how-to-do-without-web-frameworks.html#input表单" class="sidebar-link reco-side-input表单" data-v-cb1513f6>input表单</a></li><li class="level-3" data-v-cb1513f6><a href="/handsome-man/what-web-frameworks-solve/how-to-do-without-web-frameworks.html#组合表单和响应式" class="sidebar-link reco-side-组合表单和响应式" data-v-cb1513f6>组合表单和响应式</a></li><li class="level-3" data-v-cb1513f6><a href="/handsome-man/what-web-frameworks-solve/how-to-do-without-web-frameworks.html#表单的优点" class="sidebar-link reco-side-表单的优点" data-v-cb1513f6>表单的优点</a></li><li class="level-3" data-v-cb1513f6><a href="/handsome-man/what-web-frameworks-solve/how-to-do-without-web-frameworks.html#chacha和html模板" class="sidebar-link reco-side-chacha和html模板" data-v-cb1513f6>Chacha和HTML模板</a></li><li class="level-3" data-v-cb1513f6><a href="/handsome-man/what-web-frameworks-solve/how-to-do-without-web-frameworks.html#变化通道-或chacha" class="sidebar-link reco-side-变化通道-或chacha" data-v-cb1513f6>变化通道(或CHACHA)</a></li><li class="level-3" data-v-cb1513f6><a href="/handsome-man/what-web-frameworks-solve/how-to-do-without-web-frameworks.html#列表项的html模板元素" class="sidebar-link reco-side-列表项的html模板元素" data-v-cb1513f6>列表项的HTML模板元素</a></li><li class="level-3" data-v-cb1513f6><a href="/handsome-man/what-web-frameworks-solve/how-to-do-without-web-frameworks.html#把它放在一起-todomvc" class="sidebar-link reco-side-把它放在一起-todomvc" data-v-cb1513f6>把它放在一起:TodoMVC</a></li><li class="level-3" data-v-cb1513f6><a href="/handsome-man/what-web-frameworks-solve/how-to-do-without-web-frameworks.html#从规范派生的chacha" class="sidebar-link reco-side-从规范派生的chacha" data-v-cb1513f6>从规范派生的chacha</a></li><li class="level-3" data-v-cb1513f6><a href="/handsome-man/what-web-frameworks-solve/how-to-do-without-web-frameworks.html#精益-面向表单的html" class="sidebar-link reco-side-精益-面向表单的html" data-v-cb1513f6>精益，面向表单的HTML</a></li><li class="level-3" data-v-cb1513f6><a href="/handsome-man/what-web-frameworks-solve/how-to-do-without-web-frameworks.html#最小化的controller-javascript" class="sidebar-link reco-side-最小化的controller-javascript" data-v-cb1513f6>最小化的Controller---javascript</a></li><li class="level-3" data-v-cb1513f6><a href="/handsome-man/what-web-frameworks-solve/how-to-do-without-web-frameworks.html#结论和要点" class="sidebar-link reco-side-结论和要点" data-v-cb1513f6>结论和要点</a></li><li class="level-3" data-v-cb1513f6><a href="/handsome-man/what-web-frameworks-solve/how-to-do-without-web-frameworks.html#模式回顾" class="sidebar-link reco-side-模式回顾" data-v-cb1513f6>模式回顾</a></li></ul></main> <!----></div></div></div></div><div class="global-ui"><div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;display:none;" data-v-c6073ba8 data-v-c6073ba8><svg t="1574745035067" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5404" class="icon" data-v-c6073ba8><path d="M526.60727968 10.90185116a27.675 27.675 0 0 0-29.21455937 0c-131.36607665 82.28402758-218.69155461 228.01873535-218.69155402 394.07834331a462.20625001 462.20625001 0 0 0 5.36959153 69.94390903c1.00431239 6.55289093-0.34802892 13.13561351-3.76865779 18.80351572-32.63518765 54.11355614-51.75690182 118.55860487-51.7569018 187.94566865a371.06718723 371.06718723 0 0 0 11.50484808 91.98906777c6.53300375 25.50556257 41.68394495 28.14064038 52.69160883 4.22606766 17.37162448-37.73630017 42.14135425-72.50938081 72.80769204-103.21549295 2.18761121 3.04276886 4.15646224 6.24463696 6.40373557 9.22774369a1871.4375 1871.4375 0 0 0 140.04691725 5.34970492 1866.36093723 1866.36093723 0 0 0 140.04691723-5.34970492c2.24727335-2.98310674 4.21612437-6.18497483 6.3937923-9.2178004 30.66633723 30.70611158 55.4360664 65.4791928 72.80769147 103.21549355 11.00766384 23.91457269 46.15860503 21.27949489 52.69160879-4.22606768a371.15156223 371.15156223 0 0 0 11.514792-91.99901164c0-69.36717486-19.13165746-133.82216804-51.75690182-187.92578088-3.42062944-5.66790279-4.76302748-12.26056868-3.76865837-18.80351632a462.20625001 462.20625001 0 0 0 5.36959269-69.943909c-0.00994388-166.08943902-87.32547796-311.81420293-218.6915546-394.09823051zM605.93803103 357.87693858a93.93749974 93.93749974 0 1 1-187.89594924 6.1e-7 93.93749974 93.93749974 0 0 1 187.89594924-6.1e-7z" p-id="5405" data-v-c6073ba8></path><path d="M429.50777625 765.63860547C429.50777625 803.39355007 466.44236686 1000.39046097 512.00932183 1000.39046097c45.56695499 0 82.4922232-197.00623328 82.5015456-234.7518555 0-37.75494459-36.9345906-68.35043303-82.4922232-68.34111062-45.57627738-0.00932239-82.52019037 30.59548842-82.51086798 68.34111062z" p-id="5406" data-v-c6073ba8></path></svg></div></div></div>
+    <script src="/handsome-man/assets/js/app.b9fb3275.js" defer></script><script src="/handsome-man/assets/js/3.b104ceb1.js" defer></script><script src="/handsome-man/assets/js/1.809d56d9.js" defer></script><script src="/handsome-man/assets/js/22.0554b1b9.js" defer></script>
+  </body>
+</html>
